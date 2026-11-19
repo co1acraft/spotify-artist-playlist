@@ -1,5 +1,9 @@
 # Spotify Artist Playlist
 
+> [!WARNING]
+> this completely vibecoded and there may be issues
+> who knows
+
 A dependency-free Python tool that creates a Spotify playlist containing one artist's songs in **release order**, with **no duplicate songs**. Requires Python 3.10 or newer and no third-party packages.
 
 It reads the artist's full Spotify catalog (albums, singles, compilations, and optionally guest appearances), expands every release into tracks, keeps only tracks credited to that artist, sorts by release date, removes duplicates, and writes the result to a new playlist.
